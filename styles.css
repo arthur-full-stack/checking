@@ -1,0 +1,64 @@
+.table-wrapper {
+    height: 65vh;
+    overflow-y: scroll;
+  }
+  
+table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+thead tr {
+    background: rgb(91, 134, 91);
+
+}
+.green{
+    background: rgb(91, 134, 91);
+}
+th,
+td {
+    text-align: left;
+    padding: 8px;
+    border: 2px solid black;
+}
+  
+th {
+    height: 45px;
+}
+
+th:first-child {
+    position: sticky;
+    left: 0;
+    z-index: 1;
+}
+  
+td:first-child {
+    font-weight: bold;
+}
+  
+td a {
+    text-decoration: none;
+}
+td a img{
+    height: 75px;
+    width: 50px;
+    text-align: center;
+}
+td img {
+    width: 17px;
+    height: 17px;
+    text-align: center;
+    align-items: center;
+    margin-left: 12px;
+    margin-right: 10px;
+}
+
+.text-name{
+    color: rgb(80, 28, 130);
+    font-weight: 800;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+.pink{
+    background-color: rgb(252, 206, 213);
+}
